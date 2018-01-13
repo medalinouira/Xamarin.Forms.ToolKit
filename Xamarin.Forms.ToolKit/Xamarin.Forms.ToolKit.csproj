@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <title>Xamarin.Forms.ToolKit</title>
+    <PackageId>Xamarin.Forms.ToolKit</PackageId>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Authors>Mohamed Ali NOUIRA</Authors>
+    <Owners>Mohamed Ali NOUIRA</Owners>
+    <Description>ToolKit for Xamarin.Forms.</Description>
+    <Summary>ToolKit for Xamarin.Forms.</Summary>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Behaviors, Extensions, Converters, Controls</PackageReleaseNotes>
+    <Copyright>Copyright (c) Mohamed Ali NOUIRA. All rights reserved.</Copyright>
+    <PackageTags>Xamarin Xamarin.Forms ToolKit MVVM Sweet-MIT</PackageTags>
+    <PackageLicenseUrl>https://www.github.com/medalinouira/Xamarin.Forms.ToolKit</PackageLicenseUrl>
+    <PackageProjectUrl>https://www.github.com/medalinouira/Xamarin.Forms.ToolKit</PackageProjectUrl>
+    <RepositoryUrl>https://www.github.com/medalinouira/Xamarin.Forms.ToolKit</RepositoryUrl>
+    <Version>1.0.1</Version>
+    <PackageIconUrl>https://github.com/medalinouira/Xamarin.Forms.ToolKit/blob/master/Xamarin.Forms.ToolKit/ic_xft.png?raw=true</PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms.ToolKit.Behaviors" Version="1.0.2" />
+    <PackageReference Include="Xamarin.Forms.ToolKit.Controls" Version="1.0.2" />
+    <PackageReference Include="Xamarin.Forms.ToolKit.Converters" Version="1.0.0" />
+    <PackageReference Include="Xamarin.Forms.ToolKit.Extensions" Version="1.0.4" />
+  </ItemGroup>
+
+</Project>
